@@ -1,7 +1,7 @@
 import scipy.io
 import numpy as np
 import matplotlib.pyplot as plt
-mat = scipy.io.loadmat('/Users/markus/Downloads/mnist_all.mat')
+mat = scipy.io.loadmat('mnist_all.mat')
 
 Nc=10   #number of "data blocks"
 N=784   #number of pixels in each image 28*28
